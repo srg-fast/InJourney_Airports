@@ -363,10 +363,16 @@ main section:not(#overview) {
   padding: 0;
 }
 
+button1 {
+  color: #fff;   /* warna font putih */
+  font-weight: bold;
+}
+
+
 .btn-service {
   padding: 8px 14px;
   border-radius: 8px;          /* sudut membulat */
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   background: #b91f1f;
   font-size: 0.95rem;
   width: 80%;                   /* supaya lebar proporsional */
@@ -382,7 +388,7 @@ main section:not(#overview) {
 }
 
 .btn-service:hover {
-  background: #e6f3ff;
+  background: #66aaff;
   border-color: #66aaff;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
